@@ -22,7 +22,9 @@
             v-bind="attrs"
             icon
             class="ma-2 no-drag"
-            large v-on="on"
+            large link
+            to="/"
+            v-on="on"
           >
             <v-icon large>mdi-cube-outline</v-icon>
           </v-btn>
@@ -36,6 +38,8 @@
             v-bind="attrs"
             icon
             class="ma-2 no-drag"
+            link
+            to="/settings"
             large v-on="on"
           >
             <v-icon>mdi-cogs</v-icon>

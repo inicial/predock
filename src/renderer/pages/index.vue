@@ -21,7 +21,6 @@ export default {
 
 <style>
 .e-nuxt-container {
-  margin-top: -4px;
   min-height: calc(100vh - 50px);
   background: linear-gradient(to right, #ece9e6, #ffffff);
   font-family: (-apple-system, BlinkMacSystemFont, 'Segoe UI',
