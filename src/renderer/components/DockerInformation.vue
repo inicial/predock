@@ -2,6 +2,8 @@
   <v-card
     class="mx-auto"
     max-width="1000"
+    elevation="0"
+    tile
   >
     <v-container fluid>
       <v-alert
@@ -12,7 +14,7 @@
       >
         {{ err }}
       </v-alert>
-      <v-row dense>
+      <v-row>
         <v-col>
           <v-card
             class="mx-auto my-12"
